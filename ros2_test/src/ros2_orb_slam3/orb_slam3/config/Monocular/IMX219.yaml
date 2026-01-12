@@ -1,0 +1,65 @@
+%YAML:1.0
+#--------------------------------------------------------------------------------------------
+# System config
+#--------------------------------------------------------------------------------------------
+
+#--------------------------------------------------------------------------------------------
+# Camera Parameters - IMX219 @ 960x540
+#--------------------------------------------------------------------------------------------
+File.version: "1.0"
+Camera.type: "PinHole"
+
+# Camera calibration parameters (from your calibration)
+Camera1.fx: 755.01546
+Camera1.fy: 566.28059
+Camera1.cx: 494.26509
+Camera1.cy: 308.36827
+
+# Distortion parameters (plumb_bob: k1, k2, p1, p2, k3)
+Camera1.k1: -0.368697
+Camera1.k2: 0.252757
+Camera1.p1: -0.007908
+Camera1.p2: 0.007684
+
+# Image dimensions
+Camera.width: 960
+Camera.height: 540
+Camera.newWidth: 960
+Camera.newHeight: 540
+
+# Camera frames per second (your camera runs at 21Hz)
+Camera.fps: 21
+
+# Color order of the images (0: BGR, 1: RGB)
+Camera.RGB: 0
+
+#--------------------------------------------------------------------------------------------
+# ORB Parameters
+#--------------------------------------------------------------------------------------------
+# ORB Extractor: Number of features per image
+ORBextractor.nFeatures: 1000
+
+# ORB Extractor: Scale factor between levels in the scale pyramid 
+ORBextractor.scaleFactor: 1.2
+
+# ORB Extractor: Number of levels in the scale pyramid
+ORBextractor.nLevels: 8
+
+# ORB Extractor: Fast threshold
+# Lower these values if your images have low contrast
+ORBextractor.iniThFAST: 20
+ORBextractor.minThFAST: 7
+
+#--------------------------------------------------------------------------------------------
+# Viewer Parameters
+#--------------------------------------------------------------------------------------------
+Viewer.KeyFrameSize: 0.05
+Viewer.KeyFrameLineWidth: 1.0
+Viewer.GraphLineWidth: 0.9
+Viewer.PointSize: 2.0
+Viewer.CameraSize: 0.08
+Viewer.CameraLineWidth: 3.0
+Viewer.ViewpointX: 0.0
+Viewer.ViewpointY: -0.7
+Viewer.ViewpointZ: -1.8
+Viewer.ViewpointF: 500.0

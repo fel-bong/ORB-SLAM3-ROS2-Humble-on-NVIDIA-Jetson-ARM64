@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-152e4b4bc714ed065b71.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ros2_orb_slam3",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_ros2_orb_slam3_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_ros2_orb_slam3_egg-d9b89f1bb21c5e4db787.json",
+					"name" : "ament_cmake_python_build_ros2_orb_slam3_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_ros2_orb_slam3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_ros2_orb_slam3-591966b140ef88b17799.json",
+					"name" : "ament_cmake_python_symlink_ros2_orb_slam3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mono_node_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mono_node_cpp-aa367592daec0721753a.json",
+					"name" : "mono_node_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "orb_slam3_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-orb_slam3_lib-0023159a5ffa1f77ec36.json",
+					"name" : "orb_slam3_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_orb_slam3_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_orb_slam3_uninstall-e697e35e4945723cdaee.json",
+					"name" : "ros2_orb_slam3_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-9f90a0a0e821336c300a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/robin/ros2_test/build/ros2_orb_slam3",
+		"source" : "/home/robin/ros2_test/src/ros2_orb_slam3"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,69 @@
+[0.027s] Invoking command in '/home/robin/ros2_test/build/ros2_orb_slam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robin/robin_ws/install/waveshare_dc_motors:/home/robin/robin_ws/install/voice_pkg:/home/robin/robin_ws/install/vision_pkg:/home/robin/robin_ws/install/speaker_pkg:/home/robin/robin_ws/install/robotfacepyqt:/home/robin/robin_ws/install/robot_interface:/home/robin/robin_ws/install/robot-face:/home/robin/robin_ws/install/object_detection_pkg:/home/robin/robin_ws/install/mic_pkg:/home/robin/robin_ws/install/mic_array_pkg:/home/robin/robin_ws/install/dxl_drivers:/home/robin/robin_ws/install/camera_pkg:/home/robin/robot-zbot/install/robot_interface:/home/robin/install/mic_array_pkg:/opt/ros/humble /usr/bin/cmake --build /home/robin/ros2_test/build/ros2_orb_slam3
+[0.415s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.592s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.618s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.689s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.695s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.708s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.731s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.757s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.826s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.830s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.022s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.125s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[1.126s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.183s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.210s] -- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)
+[1.629s] -- Configuring done
+[1.706s] -- Generating done
+[1.723s] -- Build files have been written to: /home/robin/ros2_test/build/ros2_orb_slam3
+[1.821s] [  0%] Built target ament_cmake_python_symlink_ros2_orb_slam3
+[1.840s] [35m[1mConsolidate compiler generated dependencies of target orb_slam3_lib[0m
+[2.087s] [ 90%] Built target orb_slam3_lib
+[2.122s] [35m[1mConsolidate compiler generated dependencies of target mono_node_cpp[0m
+[2.211s] [100%] Built target mono_node_cpp
+[2.358s] running egg_info
+[2.400s] writing ros2_orb_slam3.egg-info/PKG-INFO
+[2.401s] writing dependency_links to ros2_orb_slam3.egg-info/dependency_links.txt
+[2.402s] writing top-level names to ros2_orb_slam3.egg-info/top_level.txt
+[2.526s] reading manifest file 'ros2_orb_slam3.egg-info/SOURCES.txt'
+[2.527s] writing manifest file 'ros2_orb_slam3.egg-info/SOURCES.txt'
+[2.608s] [100%] Built target ament_cmake_python_build_ros2_orb_slam3_egg
+[2.637s] Invoked command in '/home/robin/ros2_test/build/ros2_orb_slam3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robin/robin_ws/install/waveshare_dc_motors:/home/robin/robin_ws/install/voice_pkg:/home/robin/robin_ws/install/vision_pkg:/home/robin/robin_ws/install/speaker_pkg:/home/robin/robin_ws/install/robotfacepyqt:/home/robin/robin_ws/install/robot_interface:/home/robin/robin_ws/install/robot-face:/home/robin/robin_ws/install/object_detection_pkg:/home/robin/robin_ws/install/mic_pkg:/home/robin/robin_ws/install/mic_array_pkg:/home/robin/robin_ws/install/dxl_drivers:/home/robin/robin_ws/install/camera_pkg:/home/robin/robot-zbot/install/robot_interface:/home/robin/install/mic_array_pkg:/opt/ros/humble /usr/bin/cmake --build /home/robin/ros2_test/build/ros2_orb_slam3
+[2.667s] Invoking command in '/home/robin/ros2_test/build/ros2_orb_slam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robin/robin_ws/install/waveshare_dc_motors:/home/robin/robin_ws/install/voice_pkg:/home/robin/robin_ws/install/vision_pkg:/home/robin/robin_ws/install/speaker_pkg:/home/robin/robin_ws/install/robotfacepyqt:/home/robin/robin_ws/install/robot_interface:/home/robin/robin_ws/install/robot-face:/home/robin/robin_ws/install/object_detection_pkg:/home/robin/robin_ws/install/mic_pkg:/home/robin/robin_ws/install/mic_array_pkg:/home/robin/robin_ws/install/dxl_drivers:/home/robin/robin_ws/install/camera_pkg:/home/robin/robot-zbot/install/robot_interface:/home/robin/install/mic_array_pkg:/opt/ros/humble /usr/bin/cmake --install /home/robin/ros2_test/build/ros2_orb_slam3
+[2.685s] -- Install configuration: ""
+[2.686s] -- Execute custom install script
+[2.687s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/lib/libDBoW2.so
+[2.688s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/lib/libg2o.so
+[2.689s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp
+[2.690s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/environment/pythonpath.sh
+[2.690s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/environment/pythonpath.dsv
+[2.692s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3-1.5.0-py3.10.egg-info/PKG-INFO
+[2.692s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3-1.5.0-py3.10.egg-info/SOURCES.txt
+[2.693s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3-1.5.0-py3.10.egg-info/dependency_links.txt
+[2.693s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3-1.5.0-py3.10.egg-info/top_level.txt
+[2.694s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3/__init__.py
+[2.695s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/lib/ros2_orb_slam3/mono_driver_node.py
+[2.695s] -- Symlinking: /home/robin/ros2_test/install/ros2_orb_slam3/lib/ros2_orb_slam3/live_mono_driver.py
+[2.716s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/share/ament_index/resource_index/package_run_dependencies/ros2_orb_slam3
+[2.716s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/share/ament_index/resource_index/parent_prefix_path/ros2_orb_slam3
+[2.716s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/environment/ament_prefix_path.sh
+[2.717s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/environment/ament_prefix_path.dsv
+[2.718s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/environment/path.sh
+[2.718s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/environment/path.dsv
+[2.719s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/local_setup.bash
+[2.719s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/local_setup.sh
+[2.720s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/local_setup.zsh
+[2.720s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/local_setup.dsv
+[2.721s] -- Symlinking: /home/robin/ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/package.dsv
+[2.742s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/share/ament_index/resource_index/packages/ros2_orb_slam3
+[2.742s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.743s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.744s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/cmake/ros2_orb_slam3Config.cmake
+[2.744s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/cmake/ros2_orb_slam3Config-version.cmake
+[2.745s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/package.xml
+[2.746s] -- Up-to-date: /home/robin/ros2_test/install/ros2_orb_slam3/lib/ros2_orb_slam3/mono_node_cpp
+[2.748s] -- Up-to-date: /home/robin/ros2_test/install/ros2_orb_slam3/lib/liborb_slam3_lib.so.
+[2.748s] -- Up-to-date: /home/robin/ros2_test/install/ros2_orb_slam3/lib/liborb_slam3_lib.so
+[2.840s] Listing '/home/robin/ros2_test/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3'...
+[2.858s] Invoked command in '/home/robin/ros2_test/build/ros2_orb_slam3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robin/robin_ws/install/waveshare_dc_motors:/home/robin/robin_ws/install/voice_pkg:/home/robin/robin_ws/install/vision_pkg:/home/robin/robin_ws/install/speaker_pkg:/home/robin/robin_ws/install/robotfacepyqt:/home/robin/robin_ws/install/robot_interface:/home/robin/robin_ws/install/robot-face:/home/robin/robin_ws/install/object_detection_pkg:/home/robin/robin_ws/install/mic_pkg:/home/robin/robin_ws/install/mic_array_pkg:/home/robin/robin_ws/install/dxl_drivers:/home/robin/robin_ws/install/camera_pkg:/home/robin/robot-zbot/install/robot_interface:/home/robin/install/mic_array_pkg:/opt/ros/humble /usr/bin/cmake --install /home/robin/ros2_test/build/ros2_orb_slam3

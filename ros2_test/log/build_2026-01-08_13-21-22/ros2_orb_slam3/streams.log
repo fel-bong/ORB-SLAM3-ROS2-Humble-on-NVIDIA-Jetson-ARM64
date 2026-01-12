@@ -1,0 +1,479 @@
+[0.029s] Invoking command in '/home/robin/ros2_test/build/ros2_orb_slam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robin/robin_ws/install/waveshare_dc_motors:/home/robin/robin_ws/install/voice_pkg:/home/robin/robin_ws/install/vision_pkg:/home/robin/robin_ws/install/speaker_pkg:/home/robin/robin_ws/install/robotfacepyqt:/home/robin/robin_ws/install/robot_interface:/home/robin/robin_ws/install/robot-face:/home/robin/robin_ws/install/object_detection_pkg:/home/robin/robin_ws/install/mic_pkg:/home/robin/robin_ws/install/mic_array_pkg:/home/robin/robin_ws/install/dxl_drivers:/home/robin/robin_ws/install/camera_pkg:/home/robin/robot-zbot/install/robot_interface:/home/robin/install/mic_array_pkg:/opt/ros/humble /usr/bin/cmake --build /home/robin/ros2_test/build/ros2_orb_slam3
+[0.185s] [  0%] Built target ament_cmake_python_symlink_ros2_orb_slam3
+[0.196s] [35m[1mConsolidate compiler generated dependencies of target orb_slam3_lib[0m
+[0.390s] [ 90%] Built target orb_slam3_lib
+[0.421s] [35m[1mConsolidate compiler generated dependencies of target mono_node_cpp[0m
+[0.491s] [ 93%] [32mBuilding CXX object CMakeFiles/mono_node_cpp.dir/src/common.cpp.o[0m
+[0.740s] running egg_info
+[0.785s] writing ros2_orb_slam3.egg-info/PKG-INFO
+[0.786s] writing dependency_links to ros2_orb_slam3.egg-info/dependency_links.txt
+[0.786s] writing top-level names to ros2_orb_slam3.egg-info/top_level.txt
+[0.917s] reading manifest file 'ros2_orb_slam3.egg-info/SOURCES.txt'
+[0.920s] writing manifest file 'ros2_orb_slam3.egg-info/SOURCES.txt'
+[1.003s] [ 93%] Built target ament_cmake_python_build_ros2_orb_slam3_egg
+[11.500s] In file included from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:44[m[K,
+[11.500s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[11.500s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead[m[K’
+[11.501s]    32 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+[11.501s]       |                                                                                         [01;36m[K^[m[K
+[11.952s] In file included from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Frame.h:30[m[K,
+[11.952s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[11.953s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[11.953s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[11.953s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[11.953s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[11.954s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[11.954s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[11.954s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[11.954s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/ImuTypes.h:[m[K In member function ‘[01m[Kvoid ORB_SLAM3::IMU::Preintegrated::printMeasurements() const[m[K’:
+[11.955s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/ImuTypes.h:204:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<ORB_SLAM3::IMU::Preintegrated::integrable>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[11.955s]   204 |         for(int i=0; [01;35m[Ki<mvMeasurements.size()[m[K; i++){
+[11.955s]       |                      [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.152s] In file included from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[12.152s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[12.152s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[12.153s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[12.153s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[12.153s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[12.153s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[12.154s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[12.154s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[12.154s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[12.154s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[12.154s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:[m[K At global scope:
+[12.155s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:74:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[12.155s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[12.155s]       |                                                                          [01;35m[K^~~~~~~~~~[m[K
+[12.155s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[12.156s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[12.156s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[12.156s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[12.156s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[12.156s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[12.157s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[12.198s] In file included from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[12.199s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[12.199s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[12.200s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[12.200s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[12.200s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[12.200s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[12.200s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[12.201s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[12.201s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[12.201s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[12.201s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[12.201s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[12.202s]       |                                                                                  [01;35m[K^~~~~~~~~~[m[K
+[12.202s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[12.202s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[12.202s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[12.203s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[12.203s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[12.203s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[12.203s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[12.203s] In file included from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[12.204s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[12.204s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[12.204s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[12.204s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[12.204s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[12.205s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[12.205s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[12.205s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[12.205s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[12.206s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[12.206s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[12.206s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[12.206s]       |                                                                                  [01;35m[K^~~~~~~~~~[m[K
+[12.206s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[12.207s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[12.207s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[12.207s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[12.207s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[12.207s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[12.208s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[13.024s] In file included from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[13.025s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[13.025s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[13.025s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[13.025s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[13.025s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[13.025s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[13.025s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[13.026s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[13.026s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[13.026s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[13.026s] /home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<3, Eigen::Matrix<double, 3, 1> >[m[K’:
+[13.026s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_sba.h:40:35:[m[K   required from here
+[13.026s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[13.026s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[13.026s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[13.027s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[13.027s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[13.027s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[13.027s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[13.028s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[13.028s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[13.028s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[13.085s] In file included from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[13.085s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[13.085s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[13.086s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[13.086s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[13.086s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[13.086s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[13.087s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[13.087s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[13.087s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[13.087s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[13.088s] /home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<6, g2o::SE3Quat>[m[K’:
+[13.088s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:59:33:[m[K   required from here
+[13.088s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[13.089s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[13.089s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[13.089s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[13.089s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[13.090s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[13.090s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[13.090s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[13.090s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[13.090s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[13.147s] In file included from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[13.147s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[13.147s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[13.148s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[13.148s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[13.148s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[13.148s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[13.148s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[13.149s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[13.149s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[13.149s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[13.149s] /home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<6, g2o::SE3Quat, g2o::VertexSE3Expmap, g2o::VertexSE3Expmap>[m[K’:
+[13.150s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:83:24:[m[K   required from here
+[13.150s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[13.150s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[13.150s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[13.150s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[13.151s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[13.151s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[13.151s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[13.151s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[13.152s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[13.152s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[13.152s] In file included from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[13.152s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[13.152s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[13.153s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[13.153s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[13.153s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[13.153s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[13.153s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[13.154s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[13.154s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[13.154s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[13.154s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[13.155s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[13.155s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[13.155s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[13.155s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[13.155s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[13.156s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[13.156s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[13.156s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[13.156s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[13.278s] In file included from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[13.279s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[13.279s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[13.279s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[13.279s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[13.280s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[13.280s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[13.280s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[13.280s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[13.281s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[13.281s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[13.281s] /home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[13.281s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:114:35:[m[K   required from here
+[13.281s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[13.282s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[13.282s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[13.282s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[13.282s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[13.283s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[13.283s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[13.283s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[13.283s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[13.283s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[13.304s] In file included from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[13.304s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[13.304s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[13.305s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[13.305s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[13.305s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[13.305s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[13.306s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[13.306s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[13.306s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[13.306s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[13.306s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[13.307s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[13.307s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[13.307s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[13.307s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[13.308s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[13.308s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[13.308s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[13.308s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[13.308s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[13.423s] In file included from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[13.424s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[13.424s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[13.424s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[13.425s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[13.425s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[13.425s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[13.425s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[13.425s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[13.426s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[13.426s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[13.426s] /home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<3, Eigen::Matrix<double, 3, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[13.426s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:146:41:[m[K   required from here
+[13.427s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[13.427s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[13.427s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[13.427s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[13.427s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[13.428s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[13.428s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[13.428s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[13.428s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[13.429s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[13.429s] In file included from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[13.429s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[13.429s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[13.429s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[13.430s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[13.430s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[13.430s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[13.430s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[13.430s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[13.431s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[13.431s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[13.431s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[13.431s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[13.431s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[13.431s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[13.431s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[13.431s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[13.431s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[13.432s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[13.432s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[13.432s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[13.845s] In file included from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[13.846s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[13.846s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[13.846s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[13.846s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[13.847s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[13.847s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[13.847s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[13.847s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[13.848s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[13.848s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[13.848s] /home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<7, g2o::Sim3>[m[K’:
+[13.848s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:48:35:[m[K   required from here
+[13.848s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[13.849s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[13.849s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[13.849s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[13.849s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[13.849s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[13.850s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[13.850s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[13.850s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[13.850s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[13.912s] In file included from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[13.912s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[13.912s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[13.913s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[13.913s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[13.913s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[13.913s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[13.913s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[13.914s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[13.914s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[13.914s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[13.914s] /home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<7, g2o::Sim3, g2o::VertexSim3Expmap, g2o::VertexSim3Expmap>[m[K’:
+[13.915s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:99:27:[m[K   required from here
+[13.915s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[13.915s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[13.915s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[13.916s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[13.916s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[13.916s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[13.916s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[13.916s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[13.917s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[13.917s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[13.917s] In file included from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[13.917s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[13.917s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[13.918s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[13.918s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[13.918s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[13.918s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[13.919s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[13.919s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[13.919s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[13.919s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[13.919s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[13.920s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[13.920s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[13.920s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[13.920s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[13.920s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[13.921s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[13.921s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[13.921s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[13.921s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[13.996s] In file included from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[13.996s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[13.996s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[13.997s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[13.997s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[13.997s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[13.997s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[13.998s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[13.998s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[13.998s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[13.998s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[13.999s] /home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSim3Expmap>[m[K’:
+[13.999s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:130:36:[m[K   required from here
+[13.999s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[13.999s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[13.999s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[14.000s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[14.000s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[14.000s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[14.000s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[14.000s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[14.001s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[14.001s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[14.024s] In file included from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[14.024s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Converter.h:26[m[K,
+[14.024s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Frame.h:33[m[K,
+[14.024s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/KeyFrame.h:28[m[K,
+[14.025s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/MapPoint.h:23[m[K,
+[14.025s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:24[m[K,
+[14.025s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[14.025s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[14.025s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[14.025s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[14.026s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[14.026s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[14.026s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[14.026s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[14.027s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[14.027s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[14.027s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:33[m[K,
+[14.027s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[14.027s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[14.027s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[14.028s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[16.542s] In file included from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Atlas.h:27[m[K,
+[16.542s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:25[m[K,
+[16.542s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[16.543s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[16.543s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[16.543s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[16.543s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[16.543s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>)[m[K’:
+[16.543s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.544s]   102 |         const float [01;35m[Kprecision[m[K;
+[16.544s]       |                     [01;35m[K^~~~~~~~~[m[K
+[16.544s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.544s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[16.544s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[16.544s] In file included from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Atlas.h:27[m[K,
+[16.544s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:25[m[K,
+[16.544s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[16.544s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[16.545s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[16.545s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[16.545s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[16.546s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:47:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.546s]    47 |         [01;35m[KKannalaBrandt8[m[K(const std::vector<float> _vParameters) : GeometricCamera(_vParameters), precision(1e-6), mvLappingArea(2,0) ,tvr(nullptr) {
+[16.546s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[16.546s] In file included from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Atlas.h:27[m[K,
+[16.547s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/FrameDrawer.h:25[m[K,
+[16.547s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Viewer.h:23[m[K,
+[16.547s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/Tracking.h:26[m[K,
+[16.547s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/System.h:31[m[K,
+[16.547s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp:47[m[K,
+[16.547s]                  from [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/src/common.cpp:14[m[K:
+[16.548s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>, float)[m[K’:
+[16.548s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.548s]   102 |         const float [01;35m[Kprecision[m[K;
+[16.548s]       |                     [01;35m[K^~~~~~~~~[m[K
+[16.548s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.548s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[16.548s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[16.548s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:53:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.549s]    53 |         [01;35m[KKannalaBrandt8[m[K(const std::vector<float> _vParameters, const float _precision) : GeometricCamera(_vParameters),
+[16.549s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[16.549s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(ORB_SLAM3::KannalaBrandt8*)[m[K’:
+[16.549s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.549s]   102 |         const float [01;35m[Kprecision[m[K;
+[16.549s]       |                     [01;35m[K^~~~~~~~~[m[K
+[16.549s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.549s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[16.549s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[16.550s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/orb_slam3/include/CameraModels/KannalaBrandt8.h:59:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[16.550s]    59 |         [01;35m[KKannalaBrandt8[m[K(KannalaBrandt8* pKannala) : GeometricCamera(pKannala->mvParameters), precision(pKannala->precision), mvLappingArea(2,0) ,tvr(nullptr) {
+[16.550s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[17.312s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/src/common.cpp:[m[K In member function ‘[01m[Kvoid MonocularMode::Img_callback(const Image&)[m[K’:
+[17.312s] [01m[K/home/robin/ros2_test/src/ros2_orb_slam3/src/common.cpp:184:18:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KTcw[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[17.312s]   184 |     Sophus::SE3f [01;35m[KTcw[m[K = pAgent->TrackMonocular(cv_ptr->image, timeStep);
+[17.312s]       |                  [01;35m[K^~~[m[K
+[62.729s] [ 96%] [32m[1mLinking CXX executable mono_node_cpp[0m
+[64.086s] [100%] Built target mono_node_cpp
+[64.117s] Invoked command in '/home/robin/ros2_test/build/ros2_orb_slam3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robin/robin_ws/install/waveshare_dc_motors:/home/robin/robin_ws/install/voice_pkg:/home/robin/robin_ws/install/vision_pkg:/home/robin/robin_ws/install/speaker_pkg:/home/robin/robin_ws/install/robotfacepyqt:/home/robin/robin_ws/install/robot_interface:/home/robin/robin_ws/install/robot-face:/home/robin/robin_ws/install/object_detection_pkg:/home/robin/robin_ws/install/mic_pkg:/home/robin/robin_ws/install/mic_array_pkg:/home/robin/robin_ws/install/dxl_drivers:/home/robin/robin_ws/install/camera_pkg:/home/robin/robot-zbot/install/robot_interface:/home/robin/install/mic_array_pkg:/opt/ros/humble /usr/bin/cmake --build /home/robin/ros2_test/build/ros2_orb_slam3
+[64.142s] Invoking command in '/home/robin/ros2_test/build/ros2_orb_slam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robin/robin_ws/install/waveshare_dc_motors:/home/robin/robin_ws/install/voice_pkg:/home/robin/robin_ws/install/vision_pkg:/home/robin/robin_ws/install/speaker_pkg:/home/robin/robin_ws/install/robotfacepyqt:/home/robin/robin_ws/install/robot_interface:/home/robin/robin_ws/install/robot-face:/home/robin/robin_ws/install/object_detection_pkg:/home/robin/robin_ws/install/mic_pkg:/home/robin/robin_ws/install/mic_array_pkg:/home/robin/robin_ws/install/dxl_drivers:/home/robin/robin_ws/install/camera_pkg:/home/robin/robot-zbot/install/robot_interface:/home/robin/install/mic_array_pkg:/opt/ros/humble /usr/bin/cmake --install /home/robin/ros2_test/build/ros2_orb_slam3
+[64.162s] -- Install configuration: ""
+[64.163s] -- Execute custom install script
+[64.163s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/lib/libDBoW2.so
+[64.164s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/lib/libg2o.so
+[64.165s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp
+[64.165s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/environment/pythonpath.sh
+[64.165s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/environment/pythonpath.dsv
+[64.166s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3-1.5.0-py3.10.egg-info/PKG-INFO
+[64.166s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3-1.5.0-py3.10.egg-info/SOURCES.txt
+[64.167s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3-1.5.0-py3.10.egg-info/dependency_links.txt
+[64.167s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3-1.5.0-py3.10.egg-info/top_level.txt
+[64.168s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3/__init__.py
+[64.168s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/lib/ros2_orb_slam3/mono_driver_node.py
+[64.169s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/share/ament_index/resource_index/package_run_dependencies/ros2_orb_slam3
+[64.169s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/share/ament_index/resource_index/parent_prefix_path/ros2_orb_slam3
+[64.169s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/environment/ament_prefix_path.sh
+[64.170s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/environment/ament_prefix_path.dsv
+[64.170s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/environment/path.sh
+[64.170s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/environment/path.dsv
+[64.171s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/local_setup.bash
+[64.171s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/local_setup.sh
+[64.172s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/local_setup.zsh
+[64.172s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/local_setup.dsv
+[64.172s] -- Symlinking: /home/robin/ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/package.dsv
+[64.193s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/share/ament_index/resource_index/packages/ros2_orb_slam3
+[64.193s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/cmake/ament_cmake_export_include_directories-extras.cmake
+[64.194s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/cmake/ament_cmake_export_dependencies-extras.cmake
+[64.194s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/cmake/ros2_orb_slam3Config.cmake
+[64.194s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/cmake/ros2_orb_slam3Config-version.cmake
+[64.195s] -- Up-to-date symlink: /home/robin/ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/package.xml
+[64.195s] -- Installing: /home/robin/ros2_test/install/ros2_orb_slam3/lib/ros2_orb_slam3/mono_node_cpp
+[64.201s] -- Set runtime path of "/home/robin/ros2_test/install/ros2_orb_slam3/lib/ros2_orb_slam3/mono_node_cpp" to ""
+[64.201s] -- Up-to-date: /home/robin/ros2_test/install/ros2_orb_slam3/lib/liborb_slam3_lib.so.
+[64.201s] -- Up-to-date: /home/robin/ros2_test/install/ros2_orb_slam3/lib/liborb_slam3_lib.so
+[64.293s] Listing '/home/robin/ros2_test/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3'...
+[64.312s] Invoked command in '/home/robin/ros2_test/build/ros2_orb_slam3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robin/robin_ws/install/waveshare_dc_motors:/home/robin/robin_ws/install/voice_pkg:/home/robin/robin_ws/install/vision_pkg:/home/robin/robin_ws/install/speaker_pkg:/home/robin/robin_ws/install/robotfacepyqt:/home/robin/robin_ws/install/robot_interface:/home/robin/robin_ws/install/robot-face:/home/robin/robin_ws/install/object_detection_pkg:/home/robin/robin_ws/install/mic_pkg:/home/robin/robin_ws/install/mic_array_pkg:/home/robin/robin_ws/install/dxl_drivers:/home/robin/robin_ws/install/camera_pkg:/home/robin/robot-zbot/install/robot_interface:/home/robin/install/mic_array_pkg:/opt/ros/humble /usr/bin/cmake --install /home/robin/ros2_test/build/ros2_orb_slam3
